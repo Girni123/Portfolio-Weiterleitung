@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      // Hier deine Ziel-URL eingeben (dein Portfolio)
+      var target = "https://dein-portfolio-link.com";
+      // Dieser Teil hängt den Pfad (z.B. /work) einfach hinten dran
+      window.location.href = target + window.location.pathname + window.location.search;
+    </script>
+    <meta http-equiv="refresh" content="0; url=https://dein-portfolio-link.com">
+  </head>
+  <body>
+    Falls Sie nicht weitergeleitet werden, <a href="https://dein-portfolio-link.com">klicken Sie hier</a>.
+  </body>
+</html>
